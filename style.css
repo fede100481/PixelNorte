@@ -20,7 +20,7 @@ h2{
 #site-header{
 	background-color:#E0F2FE;
 	color:#FFFFFF;
-	padding 10px;
+	padding: 10px;
 }
 
 #nav-principal{
@@ -58,10 +58,10 @@ h2{
 
 #tabla-servicios{
 	width:100%;
-	bordeer-collapse:collapse;
+	border-collapse:collapse;
 }
 
-#tabla-servicios th,tabla-servicios td {
+#tabla-servicios th,#tabla-servicios td {
 	padding:10px;
 	border:1px solid #CCCCCC;
 }
