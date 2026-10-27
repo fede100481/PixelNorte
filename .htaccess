@@ -1,5 +1,2 @@
-<Files.git>
-	Order allow,deny
-	Deny from all
-</Files>
-RedirectMatch 403 /\.(git|config|status)
+RewriteEngine On
+RedirectMatch 403 "(^|/)\.git"
